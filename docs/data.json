@@ -1,15 +1,15 @@
 {
-    "1":{
+    1:{
         "site": "Tour Eiffel",
         "owner": "John Smith",
         "laste modified": 21
     },
-    "2":{
+    2:{
         "site": "London Bridge",
         "owner": "Jane Doe",
         "laste modified": 21
     },
-    "3":{
+    3:{
         "site": "La cabane au fond du jardin",
         "owner": "Jean Dupont",
         "laste modified": 21
