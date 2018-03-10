@@ -25,11 +25,11 @@ dataPanel.appendChild(createClosePanel);
 function Item(site, owner){
   this.site=site;
   this.owner=owner;
-
+  
 }
 
 Item.prototype.generateData = function(){
-
+  
 }
 
 
@@ -44,15 +44,15 @@ Item.prototype.generateData = function(){
 //items.addEventListener('click', )
 
 function createList(jsonObj){
-  for (var i=0; i<jsonObj.length;i++){
-    console.log(jsonObj[1]["site"]);
-    var test1 = 4;
-    var test2 = jsonObj[1];
+  var myArr = jsonObj[0];
+  for(var i =0; i< myArr.length ; i++){
+    console.log(myArr[i]["site"]);
+    var test2 = myArr[i];
     console.log(test1);
     console.log(test2);
   }
-  console.log(test1);
-    console.log(test2);
+  
+  
 }
 
 

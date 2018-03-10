@@ -1,17 +1,22 @@
 {
-    1:{
-        "site": "Tour Eiffel",
-        "owner": "John Smith",
-        "laste modified": 21
-    },
-    2:{
-        "site": "London Bridge",
-        "owner": "Jane Doe",
-        "laste modified": 21
-    },
-    3:{
-        "site": "La cabane au fond du jardin",
-        "owner": "Jean Dupont",
-        "laste modified": 21
-    }
+    [
+        {
+            "id":1,
+            "site": "Tour Eiffel",
+            "owner": "John Smith",
+            "laste modified": 21
+        },
+        {
+            "id":2,
+            "site": "London Bridge",
+            "owner": "Jane Doe",
+            "laste modified": 21
+        },
+        {
+            "id":3,
+            "site": "La cabane au fond du jardin",
+            "owner": "Jean Dupont",
+            "laste modified": 21
+        }
+    ]
 }
