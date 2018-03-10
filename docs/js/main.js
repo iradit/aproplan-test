@@ -35,11 +35,27 @@ Item.prototype.generateData = function(){
 
 //Sliding animation
 
-dataPanel.
+
 
 
 
 //Click event
 
-items.addEventListener('click', )
+//items.addEventListener('click', )
 
+
+var requestURL = 'https://iradit.github.io/aproplan-test/data.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function() {
+  var listItems = request.response;
+  createList(listItems);
+}
+
+function createList(jsonObj){
+  for (var i=0; i<jsonObj.length;i++){
+    console.log(jsonObj[1]["site"]);
+  }
+}
