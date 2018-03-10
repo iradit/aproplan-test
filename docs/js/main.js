@@ -45,12 +45,12 @@ Item.prototype.generateData = function(){
 
 function createList(jsonObj){
   var myArr = jsonObj[0];
-  for(var i =0; i< myArr.length ; i++){
+
     console.log(myArr[i]["site"]);
     var test2 = myArr[i];
     console.log(test1);
     console.log(test2);
-  }
+
   
   
 }
