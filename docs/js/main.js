@@ -57,5 +57,9 @@ request.onload = function() {
 function createList(jsonObj){
   for (var i=0; i<jsonObj.length;i++){
     console.log(jsonObj[1]["site"]);
+    var test1 = 4;
+    var test2 = jsonObj[1];
+    console.log(test1);
+    console.log(test2);
   }
 }
